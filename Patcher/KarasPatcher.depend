@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1158270886 source:d:\nitrogniux\projectos\karas projecto\karaspatcher\karaspatcher.rc
+	<windows.h>
+
+1161196577 source:d:\nitrogniux\projectos\karas projecto\karaspatcher\karaspatcher.cxx
+	"KarasPatcher.h"
+	<fltk/run.h>
+
+1161196577 d:\nitrogniux\projectos\karas projecto\karaspatcher\karaspatcher.h
+	<windows.h>
+	<Winuser.h>
+	<fltk/Window.h>
+	<fltk/Monitor.h>
+	<fltk/win32.h>
+	<fltk/run.h>
+	<fltk/MenuBar.h>
+	<fltk/ItemGroup.h>
+	<fltk/Item.h>
+	<fltk/file_chooser.h>
+	<fltk/Divider.h>
+	<fltk/Group.h>
+	<fltk/Input.h>
+	<fltk/TextEditor.h>
+	<fltk/LightButton.h>
+	<fltk/Button.h>
+	<fltk/DoubleBufferWindow.h>
+	<fltk/ReturnButton.h>
+
