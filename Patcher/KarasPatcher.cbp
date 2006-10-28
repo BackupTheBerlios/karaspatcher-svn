@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="5" />
+	<Project>
+		<Option title="KarasPatcher" />
+		<Option pch_mode="2" />
+		<Option default_target="" />
+		<Option compiler="msvctk" />
+		<Option virtualFolders="" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin\Release\yoyo.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="msvctk" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/Gd" />
+					<Add option="/arch:SSE2" />
+					<Add option="/GX" />
+					<Add option="/GR" />
+					<Add option="/Os" />
+					<Add option="/O1" />
+					<Add option="/W3" />
+					<Add option="/D_WIN32" />
+				</Compiler>
+				<Linker>
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\fltk2\fltk2.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\fltk2\fltk2_gl.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\fltk2\fltk2_images.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\fltk2\fltk2_jpeg.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\fltk2\fltk2_png.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\fltk2\fltk2_z.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\AdvAPI32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\ComCtl32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\ComDlg32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\Gdi32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\Imm32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\kernel32.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\odbc32.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\odbcbcp.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\odbccp32.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\Ole32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\OleAcc.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\OleAut32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\oledb.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\OleDlg.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\OlePro32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\OpenGL32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\PicLib.lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\Shell32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\User32.Lib" />
+					<Add library="D:\Nitrogniux\Projectos\CodeBlocks\CToolkit\lib\Win32\WS2_32.Lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-DWIN32" />
+		</Compiler>
+		<Unit filename="KarasPatcher.cxx">
+			<Option compilerVar="CPP" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="KarasPatcher.h">
+			<Option compilerVar="CPP" />
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="KarasPatcher.rc">
+			<Option compilerVar="WINDRES" />
+			<Option objectName="KarasPatcher.res" />
+			<Option target="Release" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
